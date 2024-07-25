@@ -68,7 +68,7 @@ i {
     #text{
       margin-top: -170px;
     }
-    #grid-banner{ background: url(../image/h1_hero.jpg);}
+    #grid-banner{ background: url(h1_hero.jpg);}
     #images{
       display: grid !important;
       grid-template-rows: repeat(6,1fr)  !important;
@@ -89,7 +89,7 @@ i {
 }
 
 #b {
-  background: url(../image/h1_hero.jpg);
+  background: url(h1_hero.jpg);
   height: 500px;
  
   gap: 180px;
@@ -112,11 +112,11 @@ mark{
 text-decoration: line-through;
 }
 #c{
-background: url(../image/card.png);
+background: url(card.png);
 height: 400px;
 }
 #d{
-  background: url(../image/h1_hero.jpg);
+  background: url(h1_hero.jpg);
   height: 300px;
 }
 .email-wrapper {
