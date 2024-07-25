@@ -1,0 +1,157 @@
+.name{
+  position: absolute;
+  color: #fff;
+  font-size: 10px;
+  background-color:red;
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-top: -50px;
+  margin-left: 80px;
+}
+#right li a{
+  margin-left: 30px;
+}
+.v1 {
+  position: absolute;
+  color: #fff;
+  font-size: 10px;
+  background-color: rgb(47, 179, 231);
+  padding: 3px 10px;
+  border-radius: 50%;
+  width: 20px; 
+  height: 20px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -40px;
+  margin-left: 25px;
+}
+
+.form-control{
+  border-radius: 20px;
+}
+.fa-search {
+  margin-left: -35px;
+  margin-top: 10px;
+}
+i {
+  margin-right: 30px;
+}
+
+#a {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+}
+.new{
+  position: absolute;
+  top:13px;
+  left:13px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: red;
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width:768px){
+    #grid-banner{
+      display: grid;
+      grid-template-rows: repeat(2,1fr);
+     
+    }  
+    #b{
+      height: 50vh;
+    }
+    #text{
+      margin-top: -170px;
+    }
+    #grid-banner{ background: url(../image/h1_hero.jpg);}
+    #images{
+      display: grid !important;
+      grid-template-rows: repeat(6,1fr)  !important;
+    }
+    #news{
+      margin-top: -80px;
+    }
+    .img-footer img{
+      width: 100px !important;
+    }
+    #latest-navbar .navbar-nav{
+
+      flex-direction: row !important;
+    }
+    #latest-navbar .navbar-nav a{
+      padding: 10px;
+    }
+}
+
+#b {
+  background: url(../image/h1_hero.jpg);
+  height: 500px;
+ 
+  gap: 180px;
+
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: rgb(16, 0, 0);
+  padding: 10px;
+  border-radius: 5px;
+}
+.checked {
+color: orange;
+}
+mark{
+text-decoration: line-through;
+}
+#c{
+background: url(../image/card.png);
+height: 400px;
+}
+#d{
+  background: url(../image/h1_hero.jpg);
+  height: 300px;
+}
+.email-wrapper {
+  position: relative;
+  display: inline-block;
+}
+#email {
+  width: 300px;
+  border-radius: 20px;
+  padding-right: 100px; 
+  margin-top:120px;
+}
+#v{
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 20px;
+  margin-top:59px; 
+}
+#footer li a{
+  text-decoration:none;
+  color: rgba(74, 72, 72, 0.696);
+  font-family: Arial;
+}
+.icon {
+  font-size: 40px;
+  float: left;
+  margin-right: -40px;
+  margin-top: -50px;
+}
+#key {
+  text-align: left;
+}
+#col3 {
+  display: flex;
+  align-items: flex-start;
+}
