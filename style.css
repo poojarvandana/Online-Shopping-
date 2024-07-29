@@ -72,7 +72,7 @@ i {
       height: 50vh;
     }
     #grid-banner{ 
-      background: url(h1_hero.jpg);
+      background: url(../image/h1_hero.jpg);
     }
     
     .img-footer img{
@@ -97,14 +97,13 @@ i {
   #shop #b{
     font-size:smaller;
   }
-    #footericon {
+  #footericon {
   margin-left: -60px !important;  
  }
-  
 }
 
 #b {
-  background: url(h1_hero.jpg);
+  background: url(../image/h1_hero.jpg);
   height: 500px;
   gap: 180px;
 
@@ -126,11 +125,11 @@ mark{
 text-decoration: line-through;
 }
 #c{
-background: url(card.png);
+background: url(../image/card.png);
 height: 400px;
 }
 #d{
-  background: url(h1_hero.jpg);
+  background: url(../image/h1_hero.jpg);
   height: 300px;
 }
 .email-wrapper {
